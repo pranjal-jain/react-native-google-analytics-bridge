@@ -19,7 +19,7 @@ android {
 }
 
 dependencies {
-  def googlePlayServicesVersion = project.hasProperty('googlePlayAnalyticsVersion') ? project.googlePlayServicesVersion : DEFAULT_GOOGLE_PLAY_ANALYTICS_VERSION
+  def googlePlayAnalyticsVersion = project.hasProperty('googlePlayAnalyticsVersion') ? project.googlePlayAnalyticsVersion : DEFAULT_GOOGLE_PLAY_ANALYTICS_VERSION
     compile 'com.facebook.react:react-native:+'
     compile "com.google.android.gms:play-services-analytics:$googlePlayAnalyticsVersion"
 
